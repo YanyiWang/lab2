@@ -1,19 +1,31 @@
 /* applies to anything of class "example-class-selector" */
+.project{
+     font-variant: small-caps;
+     margin-left: 20px;
+     color: #deebf7;
+     padding: 20px;
+     width: 525px;
+}
+
 .example-class-selector {
 	margin-top: 2em;
+     margin-left: 1px;
+
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+	color: #1234;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 1px;
+     width: 1px;
+
 }
 
 .jumbotron {
